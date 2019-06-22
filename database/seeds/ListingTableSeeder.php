@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\DB;
 class ListingTableSeeder extends Seeder
 {
     /**
@@ -11,6 +12,9 @@ class ListingTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $path = base_path().'/database/data.json';
+        $file = File::get($path);
+        $data = json_decode($file, true);
+        DB::table('listing')->insert($data);
     }
 }
