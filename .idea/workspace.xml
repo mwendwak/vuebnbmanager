@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51f8ba7-7dc5-46b3-8756-1fb65d70767c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e51f8ba7-7dc5-46b3-8756-1fb65d70767c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,12 +146,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="vuebnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuebnb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuebnb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuebnb" type="462c0819:PsiDirectoryNode" />
+              <item name="vuebnbmanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuebnbmanager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -195,12 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561193086458</updated>
       <workItem from="1561193088040" duration="800000" />
-      <workItem from="1561194530499" duration="713000" />
+      <workItem from="1561194530499" duration="1336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1513000" />
+    <option name="totallyTimeSpent" value="2136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-153" width="1936" height="1066" extended-state="6" />
