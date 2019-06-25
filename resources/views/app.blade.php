@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vuebnb</title>
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
 </head>
 <body>
 <div id="toolbar">
-    <img class="icon" src="logo.png">
+    <img class="icon" src="{{ asset('images/logo.png') }}">
     <h1>vuebnb</h1>
 </div>
 <div id="app">
@@ -54,7 +54,7 @@
     <div id="modal" v-bind:class="{ show : modalOpen }">
         <button v-on:click="modalOpen = false" class="=modal-close">&times;</button>
         <div class="modal-content">
-            <img src="sample/header.jpg"/>
+            <img src="{{ asset('images/header.jpg') }}"/>
         </div>
     </div>
 </div>

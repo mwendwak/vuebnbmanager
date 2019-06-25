@@ -12572,7 +12572,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     about: _data__WEBPACK_IMPORTED_MODULE_1__["default"].about,
     message: 'Hello Bienvenue',
     headerImageStyle: {
-      'background-image': 'url(sample/header.jpg)'
+      'background-image': 'url(/images/header.jpg)'
     },
     amenities: _data__WEBPACK_IMPORTED_MODULE_1__["default"].amenities,
     prices: _data__WEBPACK_IMPORTED_MODULE_1__["default"].prices,

@@ -8,7 +8,7 @@ var app = new Vue({
         about: sample.about,
         message: 'Hello Bienvenue',
         headerImageStyle: {
-            'background-image': 'url(sample/header.jpg)'
+            'background-image': 'url(/images/header.jpg)'
         },
         amenities: sample.amenities,
         prices: sample.prices,
