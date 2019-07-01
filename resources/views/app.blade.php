@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Vuebnb</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
+    <script type="text/javascript">
+        window.vuebnb_listing_model = "{!! addslashes(json_encode($model)) !!}"
+    </script>
 </head>
 <body>
 <div id="toolbar">
@@ -26,8 +29,8 @@
         <hr>
         <div class="about">
             <h3>About this listing</h3>
-            <p v-bind:class="{ contracted: isContracted }">@{{ about }}</p>
-            <button v-if="isContracted" class="more" v-on:click="isContracted = false">+ More</button>
+            <p v-bind:class="{ contracted: contracted }">@{{ about }}</p>
+            <button v-if="contracted" class="more" v-on:click="contracted = false">+ More</button>
         </div>
         <div class="lists">
             <hr>
@@ -54,7 +57,7 @@
     <div id="modal" v-bind:class="{ show : modalOpen }">
         <button v-on:click="modalOpen = false" class="=modal-close">&times;</button>
         <div class="modal-content">
-            <img src="{{ asset('images/header.jpg') }}"/>
+            <image-carousel :images="images"></image-carousel>
         </div>
     </div>
 </div>
