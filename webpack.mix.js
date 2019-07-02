@@ -15,5 +15,9 @@ mix
         open: false
     })
 ;
+mix.options ({
+        extractVueStyles: 'public/css/vue-style.css'
+    }
+);
 
 
